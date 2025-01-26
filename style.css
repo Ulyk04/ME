@@ -338,11 +338,17 @@ section {
         height: auto;
         padding: 20px 0; 
     }
+    .section-6{
+        padding: 150px 0;
+    }
     .projects {
         grid-template-columns: 1fr; 
         gap: 10px;
+        display: block;
     }
-
+    .title-6{
+        display: block;
+    }
     .projects img {
         width: 100%; 
         max-width: 300px; 
